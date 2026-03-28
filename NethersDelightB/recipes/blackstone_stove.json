@@ -1,0 +1,23 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": 
+	{
+		"description": {
+			"identifier": "nethersdelight:blackstone_stove"
+		},
+		"tags": ["crafting_table"],
+		"pattern": [
+			"WWW",
+			"# #",
+			"#P#"
+		],
+		"key": {
+			"P": {"item": "minecraft:campfire"},
+			"#": {"item": "minecraft:polished_blackstone_bricks"},
+			"W": {"item": "minecraft:netherbrick"}
+		},
+		"result": {
+			"item": "nethersdelight:blackstone_stove"
+		}
+	}
+}
